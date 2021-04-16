@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodie</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="row clearfix">
+                <img src="C:\Users\Rishav\Desktop\web developement\c++\websitees\Capture.PNG" class="logo" alt="">
+                <ul  class="main-nav" id="check-class"> 
+                    <li><a href="#">order food online</a></li>
+                    <li><a href="#">e-shop</a></li>
+                    <li><a href="#"> locator</a></li>
+                    <li><a href="#">sign up / login</a></li>
+                </ul>
+                <a href="#" class="mobile" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="main-content-header">
+        <h1 class="animate__animated animate__slideInLeft">welcome to foodie  <br> order and enjoy your meal</h1>
+    
+    <a href="#" class="btn btn-full">click to order</a>
+    <a href="#" class="btn btn-nav">show me more</a>
+
+   
+
+   </div>
+    </header>
+
+   
+        
+
+    
+    
+</body>
+
+<script type="text/javascript">
+function slideshow(){
+    var x=document.getElementById('check-class');
+    if(x.style.display === "none"){
+        x.style.display="block";
+    }
+    else{
+        x.style.display="none";
+    }
+
+}
+</script>
+</html>
