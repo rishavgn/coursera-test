@@ -1,0 +1,195 @@
+.firsthead {
+    background-color: rgb(248, 248, 28);
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+   
+}
+
+.row1{
+    float: left;
+    width: 33.3%;
+   
+}
+
+.secondhead{
+    background-color: black;
+    display:block;
+    height: 80px;
+  
+}
+#logo1{
+ background-color: white;
+    width: 5%;
+    float: left;
+    
+   
+
+}
+
+ul#horizontal{
+    min-width: 694px;
+    list-style: none;
+    padding: 20px;
+}
+ul#horizontal li {
+    color: white;
+    display: inline ;
+    padding-left: 5%;
+    float: left;
+
+}
+ .btn-one button{
+  background-color: black;
+  border: 2px;
+  border:yellow;
+ border-style: solid;
+ color: white;
+ cursor: pointer;
+
+}
+
+
+.btn-two button{
+    background-color:yellow;
+    border:black;
+   border: 2px;
+   color: rgb(0, 0, 0);
+  border-style:solid;
+  cursor: pointer;
+  
+  }
+
+  .subnav-content{
+    display: none;
+    position: absolute;
+    align-content: center;  /*adjust the drop down */
+   
+    z-index: 1;
+    padding-top: 2%;
+    
+}
+.subnav-content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+    
+ }
+.drop-one:hover .subnav-content{
+  display: block;
+  cursor: pointer;
+}
+.slideshow-container{
+    box-sizing: border-box;
+}
+.myslides
+{
+    display: none;
+    position: relative;
+    text-align: center;
+}
+
+
+.myslides img{
+    width: 70%;
+    height: 450px;
+    
+    
+    
+}
+
+.text{
+   left: 50%;
+   bottom: 10px;
+  position: absolute;
+  border:lightcoral 2px;
+  border-radius: 8px;
+  background-color: rgb(216, 240, 112);
+  border-style: solid;
+  width: 40px;
+}
+
+.previous, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    width: auto;
+    padding: 16px;
+    
+
+}
+.previous:hover, .next:hover {
+   background-color: black;
+   color: white;
+  
+}
+.previous{
+    margin-left:15%;
+}
+.next
+{
+    right: 0;
+    margin-right: 15.5%;
+}
+
+.container-mid{
+    padding-bottom: 20px;
+    background-color: rgb(244, 241, 245);
+    height: 220px;
+    text-align: center;
+   
+}
+h3{
+    font-size: 25px;
+    display: block;
+}
+.icons{
+    float: left;
+    width: 33.3%;
+   }
+.icons img{
+    width:20%;
+ 
+}
+.icons p{
+    padding-bottom: 20px;
+}
+.partThree{
+text-align:  center;
+
+position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  
+}
+.container-app img{
+    width: 70%;
+    height: 450px;
+   
+
+}
+.center p{
+    color: rgb(202, 202, 9);
+}
+.center-btn button{
+    position: absolute;
+    background-color: black;
+  border: 1px;
+  border:yellow;
+ border-style: solid;
+ color: white;
+ cursor: pointer;
+ top: 75%;
+ left: 70%;
+
+}
+
+
+
