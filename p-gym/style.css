@@ -1,0 +1,29 @@
+/*
+.icons img{
+    float: left;
+    width: 33%;
+    padding-bottom: 80px;
+   
+}
+.icons {
+ 
+    margin: 10px;
+}
+.container{
+    padding: 20%;
+    border:blue 20px;
+    border-style: solid;
+}
+*/
+body{
+  margin: 0px;
+}
+.container{
+   
+    padding: 44px;
+    border: 10px solid violet;
+    margin: 20px;
+}
+.container p {
+    margin: auto;
+}

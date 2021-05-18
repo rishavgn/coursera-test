@@ -1,0 +1,27 @@
+header{
+    margin: 0;
+}
+.firsthead{
+    position: relative;
+    background-color:rgb(255, 208, 0) ;
+    height: 90px;
+    text-align: center;
+   
+
+
+}
+.row1{
+    position: absolute;
+   left: 0;
+   padding: 1.5%;
+  }
+.row2{
+    padding-top:1.5%;
+}
+
+.row3{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.5%;
+}
