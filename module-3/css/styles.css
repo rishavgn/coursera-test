@@ -12,7 +12,7 @@ body{
     padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
+.navbar-brand h1 { 
     font-family: 'Lora', serif;
     color: #76323F;
     font-size: 1.5em;
@@ -44,7 +44,7 @@ body{
     margin-top: -30px;
   }
 
-  /*menu*/
+ 
 
   #chicken-tile, #beef-tile, #shusi-tile {
     height: 150px;
@@ -74,7 +74,7 @@ body{
   }
   
 
-  /*for max width 767px*/
+  
   @media (max-width:767px) {
       .navbar-brand{
           padding-top: 10px;
