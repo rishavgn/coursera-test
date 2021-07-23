@@ -11,6 +11,9 @@ body{
 .navbar-brand {
     padding-top: 25px;
 }
+.hometiles{
+height: auto;
+}
 
 .navbar-brand h1 { 
     font-family: 'Lora', serif;
