@@ -47,7 +47,7 @@ body{
  
 
   #chicken-tile, #beef-tile, #shusi-tile {
-    height: auto;
+    height:1000px;
     width: 100%;
     margin-bottom: 15px;
     position: relative;
